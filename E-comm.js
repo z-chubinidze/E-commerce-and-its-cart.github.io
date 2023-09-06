@@ -121,9 +121,9 @@ axios.get("https://fakestoreapi.com/products").then(function (responce) {
 // caunter 
 
 
-var i = 1
+var i = 0
 var caunter = document.getElementById("count");
-caunter.innerText = "1"
+caunter.innerText = "0"
 function add() {
     i++
     caunter.textContent = i;
